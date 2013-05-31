@@ -15,6 +15,7 @@ $_['text_column_right']   = 'Cột phải';
 $_['entry_code']		  = 'Hỗ trợ';
 $_['entry_yahooid']		  = 'Yahoo ID:';
 $_['entry_mobile']		  = 'Số Điện Thoại:';
+$_['entry_yahooname']    = 'Tên Nhân Viên';
 $_['entry_image']		  = 'Hình ảnh:';
 $_['entry_help']		  = 'Hình ảnh để hiển thị trạng thái yahoo ID có giá trị từ 1 đến 24';
 $_['entry_layout']        = 'Hiển thị:';

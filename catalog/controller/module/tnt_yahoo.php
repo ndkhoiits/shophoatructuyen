@@ -14,7 +14,11 @@ class ControllerModuletntyahoo extends Controller {
 			$mobile = $this->config->get('tnt_yahoo_mobile'.$i);
 			$image = $this->config->get('tnt_yahoo_image'.$i);
 			if($yahooid != '' && $mobile != ''){
-				$content .='<b>'.$yahooid.'</b><br>			
+                $name = $this->config->get('tnt_yahoo_name' . $i);
+                if ($name == '') {
+                    $name = $yahooid;
+                }
+				$content .='<b>'.$name.'</b><br>
 				<a href="ymsgr:sendim?'.$yahooid.'">
 				<img src="http://opi.yahoo.com/online?u='.$yahooid.'&t='.$image.'"></a><br>
 				'.$this->data['lable_yahooid'].': '.$yahooid.'<br>

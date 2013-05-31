@@ -27,7 +27,8 @@ class ControllerModuletntyahoo extends Controller {
 		$this->data['text_column_right'] = $this->language->get('text_column_right');
 		$this->data['entry_help'] = $this->language->get('entry_help');	
 		$this->data['entry_code'] = $this->language->get('entry_code');	
-		$this->data['entry_yahooid'] = $this->language->get('entry_yahooid');	
+		$this->data['entry_yahooid'] = $this->language->get('entry_yahooid');
+        $this->data['entry_yahooname'] = $this->language->get('entry_yahooname');
 		$this->data['entry_mobile'] = $this->language->get('entry_mobile');
 		$this->data['entry_image'] = $this->language->get('entry_image');
 		$this->data['entry_layout'] = $this->language->get('entry_layout');	
@@ -85,7 +86,7 @@ class ControllerModuletntyahoo extends Controller {
 			$this->data['tnt_yahoo_mobile1'] = $this->request->post['tnt_yahoo_mobile1'];
 		} else {
 			$this->data['tnt_yahoo_mobile1'] = $this->config->get('tnt_yahoo_mobile1');
-		}		
+		}
 		if (isset($this->request->post['tnt_yahoo_image1'])) {
 			$this->data['tnt_yahoo_image1'] = $this->request->post['tnt_yahoo_image1'];
 		} else {
@@ -156,6 +157,12 @@ class ControllerModuletntyahoo extends Controller {
 		} else {
 			$this->data['tnt_yahoo_image5'] = $this->config->get('tnt_yahoo_image5');
 		}
+
+        $this->data['tnt_yahoo_name1'] = $this->config->get('tnt_yahoo_name1');
+        $this->data['tnt_yahoo_name2'] = $this->config->get('tnt_yahoo_name2');
+        $this->data['tnt_yahoo_name3'] = $this->config->get('tnt_yahoo_name3');
+        $this->data['tnt_yahoo_name4'] = $this->config->get('tnt_yahoo_name4');
+        $this->data['tnt_yahoo_name5'] = $this->config->get('tnt_yahoo_name5');
 
 
 

@@ -18,30 +18,35 @@
       <table class="form">
         <tr>
           <td><span class="required">*</span> <?php echo $entry_code; ?> 1</td>
+          <td><?php echo $entry_yahooname; ?>1: <input type="text" name="tnt_yahoo_name1" value="<?php echo $tnt_yahoo_name1; ?>" size="50"></td>
           <td><?php echo $entry_yahooid; ?>1: <input type="text"  name="tnt_yahoo_yahooid1" value="<?php echo $tnt_yahoo_yahooid1; ?>" size="20"></td>
           <td><?php echo $entry_mobile; ?>1: <input type="text"  name="tnt_yahoo_mobile1" value="<?php echo $tnt_yahoo_mobile1; ?>" size="20"></td>
           <td><?php echo $entry_image; ?>1: <input type="text"  name="tnt_yahoo_image1" value="<?php echo $tnt_yahoo_image1; ?>" size="20"></td>
         </tr>
        <tr>
           <td><span class="required">*</span> <?php echo $entry_code; ?> 2</td>
+           <td><?php echo $entry_yahooname; ?>2: <input type="text" name="tnt_yahoo_name2" value="<?php echo $tnt_yahoo_name2; ?>" size="50"></td>
           <td><?php echo $entry_yahooid; ?>2: <input type="text"  name="tnt_yahoo_yahooid2" value="<?php echo $tnt_yahoo_yahooid2; ?>" size="20"></td>
           <td><?php echo $entry_mobile; ?>2: <input type="text"  name="tnt_yahoo_mobile2" value="<?php echo $tnt_yahoo_mobile2; ?>" size="20"></td>
           <td><?php echo $entry_image; ?>2: <input type="text"  name="tnt_yahoo_image2" value="<?php echo $tnt_yahoo_image2; ?>" size="20"></td>
         </tr>
         <tr>
           <td><span class="required">*</span> <?php echo $entry_code; ?> 3</td>
+            <td><?php echo $entry_yahooname; ?>3: <input type="text" name="tnt_yahoo_name3" value="<?php echo $tnt_yahoo_name3; ?>" size="50"></td>
           <td><?php echo $entry_yahooid; ?>3: <input type="text"  name="tnt_yahoo_yahooid3" value="<?php echo $tnt_yahoo_yahooid3; ?>" size="20"></td>
           <td><?php echo $entry_mobile; ?>3: <input type="text"  name="tnt_yahoo_mobile3" value="<?php echo $tnt_yahoo_mobile3; ?>" size="20"></td>
           <td><?php echo $entry_image; ?>3: <input type="text"  name="tnt_yahoo_image3" value="<?php echo $tnt_yahoo_image3; ?>" size="20"></td>
         </tr>
         <tr>
           <td><span class="required">*</span> <?php echo $entry_code; ?> 4</td>
+            <td><?php echo $entry_yahooname; ?>4: <input type="text" name="tnt_yahoo_name4" value="<?php echo $tnt_yahoo_name4; ?>" size="50"></td>
           <td><?php echo $entry_yahooid; ?>4: <input type="text"  name="tnt_yahoo_yahooid4" value="<?php echo $tnt_yahoo_yahooid4; ?>" size="20"></td>
           <td><?php echo $entry_mobile; ?>4: <input type="text"  name="tnt_yahoo_mobile4" value="<?php echo $tnt_yahoo_mobile4; ?>" size="20"></td>
           <td><?php echo $entry_image; ?>4: <input type="text"  name="tnt_yahoo_image4" value="<?php echo $tnt_yahoo_image4; ?>" size="20"></td>
         </tr>
         <tr>
           <td><span class="required">*</span> <?php echo $entry_code; ?> 5</td>
+            <td><?php echo $entry_yahooname; ?>5: <input type="text" name="tnt_yahoo_name5" value="<?php echo $tnt_yahoo_name5; ?>" size="50"></td>
           <td><?php echo $entry_yahooid; ?>5: <input type="text"  name="tnt_yahoo_yahooid5" value="<?php echo $tnt_yahoo_yahooid5; ?>" size="20"></td>
           <td><?php echo $entry_mobile; ?>5: <input type="text"  name="tnt_yahoo_mobile5" value="<?php echo $tnt_yahoo_mobile5; ?>" size="20"></td>
           <td><?php echo $entry_image; ?>5: <input type="text"  name="tnt_yahoo_image5" value="<?php echo $tnt_yahoo_image5; ?>" size="20"></td>
