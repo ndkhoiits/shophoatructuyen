@@ -28,3 +28,5 @@ nb-configuration.xml
 
 system/cache
 system/logs
+cache
+logs
